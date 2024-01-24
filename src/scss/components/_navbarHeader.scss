@@ -1,3 +1,15 @@
-.navbar a:hover{
-    color: blue !important;
+.navheader-section {
+    .navbar a:hover{
+        color:black !important;
+    }
+    .navbar-nav .nav-link.active{
+        color: #3396d9 !important;
+        border-bottom: 1px solid #3396d9;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: unset;
+        padding-right: unset;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

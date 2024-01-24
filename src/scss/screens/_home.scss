@@ -1,0 +1,58 @@
+.home-container {
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 91vh;
+
+        .text-container {
+            h1 {
+                font-size: 47px;
+                font-weight: 700;
+
+                .brand-name {
+                    color: #3396d9;
+                }
+            }
+
+            .text {
+                color: #484848c2;
+            }
+
+            .btn {
+                border-radius: 20px;
+                background-color: white;
+                color: #3396d9;
+                border-color: #3396d9;
+                transition: 0.5s;
+                text-decoration: none;
+
+                &:hover{
+                    color: white;
+                    background-color: #3396d9;
+                }
+            }
+
+        }
+
+        .img-container {
+            img {
+                width: 100%;
+                // .animated{
+                //     animation: up-down 2s ease-in-out infinite alternate-reverse both;
+                // }
+            }
+            .animated{
+                animation: up-down 2s ease-in-out infinite alternate-reverse;
+            }
+        }
+    }
+}
+@keyframes up-down {
+    0% {
+        transform: translatey(7px);
+    }
+    100% {
+        transform: translateY(-7px);
+    }
+}
