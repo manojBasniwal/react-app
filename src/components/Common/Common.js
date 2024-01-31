@@ -6,7 +6,7 @@ function Common(props) {
     return (
         <section className='home-container'>
             <div className="container">
-                <div className="row">
+                <div className="row pb-3 pb-md-0">
                         <div className='text-container col-md-6 pt-5 pt-lg-0 order-2 order-md-1'>
                             <h1>
                                {props.name}
@@ -22,7 +22,7 @@ function Common(props) {
                             </div>
                         </div>
                         <div className='img-container col-md-6 order-1 order-md-2'>
-                            <img src={props.imgsrc} className='img-box animated' alt='img'/>
+                            <img src={props.imgsrc} className='img-box animated pt-4 pt-md-0' alt='img'/>
                         </div>
                 </div>
             </div>

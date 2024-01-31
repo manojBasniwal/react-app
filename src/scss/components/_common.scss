@@ -3,7 +3,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 91vh;
+        min-height: 91vh;
 
         .text-container {
             h1 {
@@ -51,5 +51,10 @@
     }
     100% {
         transform: translateY(-7px);
+    }
+}
+@media screen and (max-width: 576px) {
+    .home-container .row .text-container h1{
+        font-size: 33px;
     }
 }
